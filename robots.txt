@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trxnpop.github.io/mybizdev-guides/sitemap.xml
