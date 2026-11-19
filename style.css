@@ -66,3 +66,7 @@ footer.site{border-top:1px solid var(--line);margin-top:40px;padding:28px 0;colo
 .chips a{font-size:14px;text-decoration:none;color:var(--sage-d);background:var(--card);border:1px solid var(--line);padding:6px 12px;border-radius:999px}
 .chips a:hover{border-color:var(--sage)}
 h2.cat{scroll-margin-top:16px}
+.pinit{display:flex;gap:24px;align-items:center;background:var(--sage-l);border-radius:16px;padding:20px;margin:28px 0}
+.pinit img{width:150px;flex:none;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.pinit h3{margin:0 0 6px;font-size:20px}.pinit p{margin:0 0 10px;color:var(--muted);font-size:15px}
+@media (max-width:560px){.pinit{flex-direction:column;text-align:center}.pinit img{width:180px}}
